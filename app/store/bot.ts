@@ -4,6 +4,7 @@ import { persist } from "zustand/middleware";
 import { LLMConfig } from "../client/platforms/llm";
 import { ChatSession, ChatMessage, createEmptySession } from "./session";
 import { createDemoBots, createEmptyBot } from "@/app/bots/bot.data";
+import { Web5 } from "@web5/api";
 
 export type Share = {
   id: string;
